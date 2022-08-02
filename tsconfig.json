@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "types": [
+      "jest",
+      "node"
+    ],
+    "strict": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "baseUrl": ".",
+    "paths": {
+      "@dne/pro-button": ["./packages/button/src/index.tsx"],
+      "@dne/pro-components": ["./packages/components/src/index.tsx"],
+      "@dne/pro-foo": ["./packages/foo/src/index.tsx"],
+      "@dne/pro-layout": ["./packages/layout/src/index.tsx"],
+      "@dne/pro-utils": ["./packages/utils/src/index.tsx"]
+    }
+  }
+}

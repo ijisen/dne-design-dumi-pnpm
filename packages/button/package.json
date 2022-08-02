@@ -1,0 +1,54 @@
+{
+  "name": "@dne/pro-button",
+  "version": "1.0.0",
+  "description": "@dne/button",
+  "scripts": {
+    "build": "father build"
+  },
+  "main": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "files": [
+    "lib",
+    "dist",
+    "es"
+  ],
+  "keywords": [
+    "antd",
+    "admin",
+    "@dne",
+    "@dne-pro"
+  ],
+  "homepage": "https://github.com/@dne/pro-components/tree/master/packages/components#readme",
+  "bugs": "https://github.com/@dne/pro-components/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/@dne/pro-components"
+  },
+  "license": "MIT",
+  "sideEffects": [
+    "*.less"
+  ],
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 11"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "antd": "^4.22.3",
+    "react": "^18.0.0"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.0.15",
+    "antd": "^4.22.3",
+    "react": "^18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "authors": [
+    "chencheng <sorrycc@gmail.com> (https://github.com/sorrycc)",
+    "chenshuai2144 <qixian.cs@outlook.com> (https://github.com/chenshuai2144)"
+  ]
+}
