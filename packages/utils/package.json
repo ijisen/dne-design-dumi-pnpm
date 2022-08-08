@@ -1,0 +1,17 @@
+{
+  "name": "@dne-design/pro-utils",
+  "version": "2.0.1",
+  "scripts": {
+    "build": "father build"
+  },
+  "main": "dist/lib/index.js",
+  "types": "dist/es/index.d.ts",
+  "module": "dist/es/index.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

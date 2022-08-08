@@ -1,0 +1,27 @@
+{
+  "name": "@dne-design/pro-button",
+  "version": "2.0.1",
+  "scripts": {
+    "build": "father build"
+  },
+  "main": "dist/lib/index.js",
+  "types": "dist/es/index.d.ts",
+  "module": "dist/es/index.js",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "antd": "^4.22.3",
+    "react": "^18.0.0"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.0.15",
+    "antd": "^4.22.3",
+    "react": "^18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

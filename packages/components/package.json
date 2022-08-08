@@ -1,0 +1,39 @@
+{
+  "name": "@dne-design/pro-components",
+  "version": "2.0.1",
+  "scripts": {
+    "build": "father build"
+  },
+  "main": "dist/lib/index.js",
+  "types": "dist/es/index.d.ts",
+  "module": "dist/es/index.js",
+  "sideEffects": [
+    "*.less"
+  ],
+  "files": [
+    "dist"
+  ],
+  "browserslist": [
+    "last 2 versions",
+    "Firefox ESR",
+    "> 1%",
+    "ie >= 11"
+  ],
+  "dependencies": {
+    "@dne-design/pro-bar": "workspace:^2.0.0",
+    "@dne-design/pro-button": "workspace:^2.0.0",
+    "@dne-design/pro-foo": "workspace:^2.0.0",
+    "@dne-design/pro-layout": "workspace:^2.0.0",
+    "@dne-design/pro-utils": "workspace:^2.0.0",
+    "antd": "^4.22.3"
+  },
+  "peerDependencies": {
+    "antd": "^4.22.3",
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

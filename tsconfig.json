@@ -1,0 +1,91 @@
+{
+  "compilerOptions": {
+    /**
+     *
+     * 基本选项
+     *
+     * */
+    // 指定 ECMAScript 目标版本:  'ES5', 'ES6'/'ES2015', 'ES2016', 'ES2017', or 'esnext'
+    "target": "esnext",
+    // 指定使用模块: 'commonjs', 'amd', 'system', 'umd' ，'ES6'，'es2022'，or 'esnext'
+    "module": "esnext",
+    // 指定 jsx 代码的生成: 'preserve', 'react-native', or 'react'
+    "jsx": "react",
+    // 生成相应的 '.d.ts' 文件
+    "declaration": true,
+    // 生成相应的 '.map' 文件
+    "sourceMap": true,
+    /**
+     *
+     * 模块解析选项
+     *
+     * */
+    // 选择模块解析策略： 'node' (Node.js) or 'classic' (TypeScript pre-1.6)
+    "moduleResolution": "node",
+    // 需要包含的类型声明文件，未设置默认typeRoots指定文件夹下的所有包，设置后则仅按指定的包。
+    "types": [
+      "jest",
+      "node"
+    ],
+    // es 模块转换
+    "esModuleInterop": true,
+    /**
+     *
+     * 严格的类型检查选项
+     *
+     **/
+    // 启用所有严格类型检查选项
+    "strict": true,
+    // 启用严格的 null 检查
+    "strictNullChecks": true,
+    /**
+     *
+     * 额外的检查
+     *
+     **/
+    // 跳过所有声明文件的类型检查
+    "skipLibCheck": true,
+    // 并不是所有函数里的代码都有返回值时，抛出错误
+    "noImplicitReturns": true,
+    // 用于解析非相对模块名称的基目录
+    "baseUrl": ".",
+    // 允许从没有设置默认导出的模块中默认导入。
+    "allowSyntheticDefaultImports": true,
+    // 模块名到基于 baseUrl 的路径映射的列表
+    "paths": {
+      "@dne-design/pro-bar": [
+        "./packages/bar/src"
+      ],
+      "@dne-design/pro-button": [
+        "./packages/button/src"
+      ],
+      "@dne-design/pro-components": [
+        "./packages/components/src"
+      ],
+      "@dne-design/pro-foo": [
+        "./packages/foo/src"
+      ],
+      "@dne-design/pro-layout": [
+        "./packages/layout/src"
+      ],
+      "@dne-design/pro-utils": [
+        "./packages/utils/src"
+      ]
+    },
+    /*
+     *
+     * 其他选项
+     *
+     * */
+    // 启用装饰器
+    "experimentalDecorators": true,
+    "plugins": [
+      {
+        "transform": "typescript-transform-paths",
+        "afterDeclarations": true
+      }
+    ],
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true
+  }
+}

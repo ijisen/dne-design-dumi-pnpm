@@ -1,0 +1,7 @@
+# @dne-design/pro-button
+
+Install dependencies,
+
+```bash
+$ npm i @dne-design/pro-button
+```
