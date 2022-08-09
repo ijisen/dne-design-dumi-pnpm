@@ -2,7 +2,21 @@
 ## GUIDE CHANGESET!
 
 
-### config.json 配置文件说明
+### `使用命令`
+
+```
+// 初始化配置
+pnpm changeset init
+
+// 编写 修改日志文件
+pnpm run changeset
+
+// 版本更新
+pnpm changeset version
+
+```
+
+### `config.json 配置文件说明`
 ````
 {
    //
