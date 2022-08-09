@@ -28,11 +28,7 @@ export type LocaleType = {
  * @param[locales]: {} 语言包
  * */
 export type GetLocaleObjectType = {
-<<<<<<< HEAD
   language?: LocaleType;
-=======
-  language?: string;
->>>>>>> 021635d54c863f1756e15adda30698edbdd1c68e
   storageName?: string;
   locales: LocaleType;
 }
