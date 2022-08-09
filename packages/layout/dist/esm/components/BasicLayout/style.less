@@ -1,0 +1,21 @@
+@ant-prefix: 'dne';
+@basicLayout-prefix-cls: ~'@{ant-prefix}-pro-basicLayout';
+@pro-layout-header-height: 48px;
+
+.@{basicLayout-prefix-cls} {
+  // BFC
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
+
+  .@{ant-prefix}-layout-header {
+    &.@{ant-prefix}-pro-fixed-header {
+      position: fixed;
+      top: 0;
+    }
+
+  }
+
+
+}

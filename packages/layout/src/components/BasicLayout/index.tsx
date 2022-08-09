@@ -1,8 +1,13 @@
 import type { CSSProperties } from 'react';
 import React, { useCallback, useEffect } from 'react';
 import classNames from 'classnames';
+<<<<<<< HEAD
 import type { LocaleType } from '@dne-design/pro-utils';
 import { getLocaleObject } from '@dne-design/pro-utils';
+=======
+import type { LocaleType } from '@dne/pro-utils';
+import { getLocaleObject } from '@dne/pro-utils';
+>>>>>>> 021635d54c863f1756e15adda30698edbdd1c68e
 import PageLoading from '../PageLoading';
 import './style.less';
 import locales from '../../locales';
@@ -25,7 +30,11 @@ export type BasicLayoutProps = {
   language?: LocaleType;
 
   /**
+<<<<<<< HEAD
    * @name loading 的 loading 效果，设置完成之后只展示一个 loading
+=======
+   * @name layout 的 loading 效果，设置完成之后只展示一个 loading
+>>>>>>> 021635d54c863f1756e15adda30698edbdd1c68e
    *
    * @example loading={true}
    */
@@ -88,7 +97,11 @@ const Index: React.FC<BasicLayoutProps> = (props) => {
   if (loading) {
     return (
       <div className={classNames(props.className)}>
+<<<<<<< HEAD
         <PageLoading isLoading={loading} />
+=======
+        <PageLoading />
+>>>>>>> 021635d54c863f1756e15adda30698edbdd1c68e
       </div>
     );
   }
