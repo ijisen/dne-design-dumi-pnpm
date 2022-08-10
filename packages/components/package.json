@@ -1,6 +1,6 @@
 {
   "name": "@dne-design/pro-components",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "scripts": {
     "build": "father build"
   },
@@ -23,8 +23,9 @@
     "@dne-design/pro-bar": "workspace:^2.0.0",
     "@dne-design/pro-button": "workspace:^2.0.0",
     "@dne-design/pro-foo": "workspace:^2.0.0",
+    "@dne-design/pro-header": "workspace:^0.0.3",
     "@dne-design/pro-layout": "workspace:^2.0.0",
-    "@dne-design/pro-utils": "workspace:^2.0.0",
+    "@dne-design/pro-utils": "workspace:^2.0.2",
     "antd": "^4.22.3"
   },
   "peerDependencies": {

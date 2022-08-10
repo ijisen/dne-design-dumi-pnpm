@@ -16,22 +16,16 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// src/version.ts
-var version_exports = {};
-__export(version_exports, {
-  version: () => version
+// src/index.tsx
+var src_exports = {};
+__export(src_exports, {
+  header: () => header
 });
-module.exports = __toCommonJS(version_exports);
-var version = {
-  "@dne-design/pro-bar": "2.0.1",
-  "@dne-design/pro-button": "2.0.1",
-  "@dne-design/pro-components": "2.0.1",
-  "@dne-design/pro-foo": "2.0.1",
-  "@dne-design/pro-header": "0.0.1",
-  "@dne-design/pro-layout": "2.0.1",
-  "@dne-design/pro-utils": "2.0.1"
+module.exports = __toCommonJS(src_exports);
+var header = ({ title }) => {
+  console.log(title);
 };
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  version
+  header
 });

@@ -1,0 +1,7 @@
+# @dne-design/pro-header
+
+Install dependencies,
+
+```bash
+$ npm i @dne-design/pro-header
+```

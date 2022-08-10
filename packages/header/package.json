@@ -1,6 +1,6 @@
 {
-  "name": "@dne-design/pro-utils",
-  "version": "2.0.2",
+  "name": "@dne-design/pro-header",
+  "version": "0.0.3",
   "scripts": {
     "build": "father build"
   },

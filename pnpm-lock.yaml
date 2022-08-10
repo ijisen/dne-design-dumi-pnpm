@@ -81,6 +81,7 @@ importers:
       '@dne-design/pro-bar': workspace:^2.0.0
       '@dne-design/pro-button': workspace:^2.0.0
       '@dne-design/pro-foo': workspace:^2.0.0
+      '@dne-design/pro-header': workspace:^0.0.1
       '@dne-design/pro-layout': workspace:^2.0.0
       '@dne-design/pro-utils': workspace:^2.0.0
       antd: ^4.22.3
@@ -90,6 +91,7 @@ importers:
       '@dne-design/pro-bar': link:../bar
       '@dne-design/pro-button': link:../button
       '@dne-design/pro-foo': link:../foo
+      '@dne-design/pro-header': link:../header
       '@dne-design/pro-layout': link:../layout
       '@dne-design/pro-utils': link:../utils
       antd: 4.22.4_biqbaboplfbrettd7655fr4n2y
